@@ -52,7 +52,6 @@
     "react": "^18.3.1"
   },
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "dev": "vite build --watch",
     "cy:prepare": "pnpm build",
     "prepare": "ts-patch install -s",
